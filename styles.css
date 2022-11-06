@@ -1,0 +1,78 @@
+body {
+	background: black;
+}
+/* {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	font-family: "Handlee", cursive;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 60px;
+	height: 60px;
+	padding-right: 10px;
+}
+.postcard-header h1 {
+	width: 400px;
+	margin: 0;
+	padding-top: 25px;
+	padding-left: 8px;
+	padding-bottom: 0px;
+	font-family: "Handlee", cursive;
+	font-size: 25px;
+}
+.postcard-body {
+	display: flex;
+}
+.leftone {
+	margin-top: 10px;
+	font-size: 15;
+	padding-right: 0px;
+	margin-bottom: 20px;
+}
+.lefttwo {
+	font-size: 16px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 5px;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: 1px gray solid;
+	font-size: 15px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 45px;
+	font-family: "Handlee", cursive;
+	padding-top: 6px;
+}
+.postcard-footer {
+	text-align: center;
+	margin-top: 0px;
+}
+button {
+	background-color: rgb(185, 181, 181);
+	padding-top: 1.5px;
+	padding-bottom: 2px;
+	padding-right: 6px;
+	padding-left: 6px;
+	font-size: 14px;
+	font-family: "Handlee", cursive;
+}
